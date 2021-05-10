@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import CarouselBanners from './components/CarouselBanners'
+import CarouselItens from './components/CarouselItens'
+import News from './components/News'
+import Footer from './components/Footer'
+
+import './GlobalStyle.css'
+import { AuthProvider } from './providers/auth'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <AuthProvider>
+                <Header />
+                <CarouselBanners />
+                <CarouselItens />
+                <News />
+                <Footer />
+            </AuthProvider>
+        </>
+    )
 }
 
-export default App;
+export default App

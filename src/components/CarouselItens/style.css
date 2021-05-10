@@ -1,0 +1,76 @@
+.best-sellers{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.title-modal{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.body-modal{
+    color: #7A7A7A;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.product{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: 216px; 
+}
+
+.product-info{
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.product-info:hover{
+    background-color: #E6E8EA ;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: 600;
+    color: #7A7A7A;
+}
+
+.old-price{
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #7A7A7A
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.parcel{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.react-multi-carousel-dot--active button{
+    background: #F8475F !important;
+    width: 10px;
+    height: 10px;
+    border: 0;
+}
+
+.react-multi-carousel-dot button{
+    background: #BDBDBD;
+    width: 10px;
+    height: 10px;
+    border: 0;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}

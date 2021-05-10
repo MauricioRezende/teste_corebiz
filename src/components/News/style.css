@@ -1,0 +1,30 @@
+@media only screen and (max-width: 991px) {
+    #email{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #buttonParticipar{
+        width: 100%;
+    }
+}
+
+.input{
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    height: 48px;
+    background-image: none !important;
+}
+
+.input:focus{
+    box-shadow: none !important;
+    border: solid 1px #BDBDBD !important;
+    
+}
+
+.news{
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}

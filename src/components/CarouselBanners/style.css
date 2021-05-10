@@ -1,0 +1,63 @@
+.legend{
+    font-size: 50px;
+}
+
+.carousel .control-dots .dot.selected{
+    background: #F8475F;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel .control-dots .dot{
+    background: #BDBDBD;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel .slide .legend{
+    top: 100px;
+    opacity: 1; 
+    background: transparent;
+}
+
+.image-banner{
+    height: 430px;
+}
+
+.text-smaller{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text-bigger{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+@media only screen and (min-width: 1320px) {
+    .carousel .slide .legend{
+        width: 50%;
+        padding-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .image-banner{
+        height: 350px;
+        font-weight: 900;
+    }
+
+    .text-smaller{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .text-bigger{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .carousel .slide .legend{
+        top: 30px;
+    }
+}
